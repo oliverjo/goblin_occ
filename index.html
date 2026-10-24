@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta >
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OCC 掲載ページ 修正・指摘事項｜GOBLINご担当者様へ</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    font-size: 15px;
+    color: #111;
+    background: #fff;
+    padding: 40px 32px;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  /* ヘッダー */
+  .doc-header {
+    border-bottom: 3px solid #111;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+  }
+  .doc-header .label {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: #111;
+    margin-bottom: 6px;
+  }
+  .doc-header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .doc-header .meta {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #111;
+  }
+
+  /* セクション */
+  .section {
+    margin-bottom: 36px;
+  }
+  .section-title {
+    font-size: 17px;
+    font-weight: 700;
+    background: #111;
+    color: #fff;
+    padding: 6px 14px;
+    margin-bottom: 16px;
+  }
+
+  /* 指摘カード */
+  .correction-card {
+    border: 1px solid #ccc;
+    border-left: 4px solid #111;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+  }
+  .correction-card .card-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    align-items: flex-start;
+  }
+  .row-label {
+    min-width: 88px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .row-label.ng  { color: #c00; }
+  .row-label.ok  { color: #060; }
+  .row-label.fix { color: #111; }
+  .row-value {
+    flex: 1;
+    line-height: 1.6;
+  }
+  .tag-ng {
+    display: inline-block;
+    background: #fde;
+    border: 1px solid #c00;
+    color: #c00;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+  .tag-ok {
+    display: inline-block;
+    background: #dfd;
+    border: 1px solid #060;
+    color: #060;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+  .note {
+    font-size: 13px;
+    color: #444;
+    margin-top: 6px;
+    border-top: 1px dashed #ccc;
+    padding-top: 6px;
+    line-height: 1.6;
+  }
+
+  /* 施設基本データ テーブル */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  th {
+    background: #111;
+    color: #fff;
+    text-align: left;
+    padding: 8px 12px;
+    font-weight: 700;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+    line-height: 1.6;
+  }
+  tr:nth-child(even) td { background: #f7f7f7; }
+  td:first-child { font-weight: 700; white-space: nowrap; }
+
+  /* フッター */
+  .doc-footer {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 14px;
+    font-size: 13px;
+    color: #444;
+    line-height: 1.8;
+  }
+</style>
+</head>
+<body>
+
+<div class="doc-header">
+  <div class="label">GOBLINご担当者様へ</div>
+  <h1>OCC（ODYSSEY CREATIVE CENTER）掲載ページ<br>修正・指摘事項</h1>
+  <div class="meta">
+    送付者：株式会社SAI（小池博史ブリッジプロジェクト）制作担当 川之上恭弘<br>
+    作成日：2026年10月24日
+  </div>
+</div>
+
+
+<!-- ① 料金体系 -->
+<div class="section">
+  <div class="section-title">① 料金体系・パック設定の修正</div>
+
+  <div class="correction-card">
+    <div class="card-title">1. パック名称と時間枠の誤り</div>
+    <div class="row">
+      <div class="row-label ng">現在の記載</div>
+      <div class="row-value"><span class="tag-ng">誤</span>「4時間パック (10:00-16:00)」「4時間パック (16:00-22:00)」</div>
+    </div>
+    <div class="row">
+      <div class="row-label ok">正しい内容</div>
+      <div class="row-value">
+        <span class="tag-ok">正</span><strong>半日パックA（10:00〜16:00 / 6時間）</strong>：平日 40,000円 / 土日祝 85,000円<br>
+        <span class="tag-ok">正</span><strong>半日パックB（16:00〜22:00 / 6時間）</strong>：平日 50,000円 / 土日祝 85,000円
+      </div>
+    </div>
+    <div class="note">※「4時間パック」は存在しません。表記を「半日パックA / B（各6時間）」に修正してください。平日B枠は夜間帯のため10,000円高い設定です。</div>
+  </div>
+
+  <div class="correction-card">
+    <div class="card-title">2. 時間貸しの最小予約単位（本文右側枠内の表記）</div>
+    <div class="row">
+      <div class="row-label ng">現在の記載</div>
+      <div class="row-value"><span class="tag-ng">誤</span>「2時間以降は30分毎にご予約可能」</div>
+    </div>
+    <div class="row">
+      <div class="row-label ok">正しい内容</div>
+      <div class="row-value"><span class="tag-ok">正</span>最低利用時間 <strong>2時間以上</strong>、以降は<strong>1時間単位</strong>でご予約可能</div>
+    </div>
+    <div class="note">※30分単位での受付は転換・管理の効率が悪いため、予約システムの単位を「1時間刻み」に変更してください。なお、予期せぬ延長料金は30分ごとに計算します。</div>
+  </div>
+
+  <div class="correction-card">
+    <div class="card-title">3. 深夜帯（22:00〜翌10:00）枠の完全削除</div>
+    <div class="row">
+      <div class="row-label ng">現在の記載</div>
+      <div class="row-value"><span class="tag-ng">誤</span>「8時間パック (22:00-翌10:00)」および深夜時間帯の料金が掲載</div>
+    </div>
+    <div class="row">
+      <div class="row-label ok">正しい内容</div>
+      <div class="row-value"><span class="tag-ok">正</span>営業時間は <strong>10:00〜22:00（完全撤収）</strong>。深夜・オールナイト営業は不可。パックは2種類のみ。</div>
+    </div>
+    <div class="note">※深夜帯の料金表・パック項目はすべて削除してください。</div>
+  </div>
+
+  <div class="correction-card">
+    <div class="card-title">4. 時間貸しの予約開始時期（FAQ欄）</div>
+    <div class="row">
+      <div class="row-label ng">現在の記載</div>
+      <div class="row-value"><span class="tag-ng">誤</span>FAQ欄に「90日前（約3ヶ月前）から本予約可能」と記載（時間貸しも同じ扱いになっている）</div>
+    </div>
+    <div class="row">
+      <div class="row-label ok">正しい内容</div>
+      <div class="row-value"><span class="tag-ok">正</span>時間貸しは <strong>利用日の10日前から予約可能</strong></div>
+    </div>
+    <div class="row">
+      <div class="row-label fix">修正例</div>
+      <div class="row-value">
+        Q. いつから本予約できますか？<br>
+        A. 本予約受付は、ご利用日の90日前（約3ヶ月前）から承っております。<br>
+        ※なお、時間貸しプランのご予約は、ご利用日の<strong>10日前</strong>からの受付となります。
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ② 設備スペック -->
+<div class="section">
+  <div class="section-title">② 設備スペック・備品リストの修正</div>
+
+  <div class="correction-card">
+    <div class="card-title">5. プロジェクターの明るさ（スペック誤り）</div>
+    <div class="row">
+      <div class="row-label ng">現在の記載</div>
+      <div class="row-value"><span class="tag-ng">誤</span>6,000ルーメン</div>
+    </div>
+    <div class="row">
+      <div class="row-label ok">正しい内容</div>
+      <div class="row-value"><span class="tag-ok">正</span><strong>5,000ルーメン（5000lm）</strong>　型番：Epson EB-2155W</div>
+    </div>
+  </div>
+
+  <div class="correction-card">
+    <div class="card-title">6. 無料備品（マイク・音響機材）の過剰記載</div>
+    <div class="row">
+      <div class="row-label ng">現在の記載</div>
+      <div class="row-value"><span class="tag-ng">誤</span>マイク7本・マイクスタンド4台・スピーカー8台・パワーアンプ3台などが「無料」と記載</div>
+    </div>
+    <div class="row">
+      <div class="row-label ok">正しい内容</div>
+      <div class="row-value"><span class="tag-ok">正</span>無料なのは <strong>常設スピーカー・ミキサー</strong>および<strong>有線マイク・スタンド 2セット</strong>のみ</div>
+    </div>
+    <div class="note">※当日のトラブルを防ぐため、「有線マイク・マイクスタンド 2セット（無料）」に修正し、過剰な音響機器リストは削除してください。</div>
+  </div>
+
+  <div class="correction-card">
+    <div class="card-title">7. 天井高の表記（実測値）</div>
+    <div class="row">
+      <div class="row-label ng">現在の記載</div>
+      <div class="row-value"><span class="tag-ng">誤</span>3.6m 等の表記</div>
+    </div>
+    <div class="row">
+      <div class="row-label ok">正しい内容</div>
+      <div class="row-value"><span class="tag-ok">正</span>床からバトンまでの実測値 <strong>3.7m（372cm）</strong></div>
+    </div>
+    <div class="note">※「天井高3.7m」に統一してください。</div>
+  </div>
+
+  <div class="correction-card">
+    <div class="card-title">8. ゴミ回収費用・清掃費の表記</div>
+    <div class="row">
+      <div class="row-label ng">現在の記載</div>
+      <div class="row-value"><span class="tag-ng">誤</span>「ゴミ回収 税込6,600円〜」</div>
+    </div>
+    <div class="row">
+      <div class="row-label ok">正しい内容</div>
+      <div class="row-value"><span class="tag-ok">正</span>ゴミ回収：<strong>3,000円 / 45L袋</strong>　軽清掃：<strong>3,000円 / 日</strong></div>
+    </div>
+    <div class="note">※袋単位の正確な規定に差し替えてください。</div>
+  </div>
+</div>
+
+
+<!-- ③ 厨房・無料有料 -->
+<div class="section">
+  <div class="section-title">③ 厨房利用・無料と有料の明確化</div>
+
+  <div class="correction-card">
+    <div class="card-title">9. キッチン（厨房）利用の注意書き</div>
+    <div class="row">
+      <div class="row-label ng">現在の記載</div>
+      <div class="row-value"><span class="tag-ng">誤</span>「キッチンのご利用は、通常お受けしておりません。」</div>
+    </div>
+    <div class="row">
+      <div class="row-label ok">推奨表記</div>
+      <div class="row-value"><span class="tag-ok">正</span>「ロケ撮影等に伴う消えもの・料理撮影時、外部調理スタッフ同伴での厨房使用は個別要相談」</div>
+    </div>
+    <div class="note">※一般客の自由調理を防ぎつつ、ロケ撮影（消えもの制作等）の需要を取り込む表現に変更してください。</div>
+  </div>
+
+  <div class="correction-card">
+    <div class="card-title">10. 無料設備と有料オプションの明確分け</div>
+    <div class="row">
+      <div class="row-label ng">現在の記載</div>
+      <div class="row-value"><span class="tag-ng">誤</span>照明・音響全般が無料に見える曖昧な表記</div>
+    </div>
+    <div class="row">
+      <div class="row-label ok">無料</div>
+      <div class="row-value"><span class="tag-ok">正</span>基本照明（ダクトライト＋LEDスポット/8灯・照明卓）のセルフ操作</div>
+    </div>
+    <div class="row">
+      <div class="row-label fix">有料</div>
+      <div class="row-value">
+        照明仕込みサポート：30,000円<br>
+        照明オペレーション：25,000円/日〜<br>
+        プランニング・デザイン作成：別途見積
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ④ 正しい施設基本データ -->
+<div class="section">
+  <div class="section-title">④ 正しい施設基本データ（参照用）</div>
+  <table>
+    <thead>
+      <tr><th>項目</th><th>正しい設定値・規約内容</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>営業時間</td><td>10:00〜22:00（搬入・設営・撤収・完全退去を含む）</td></tr>
+      <tr><td>全日パック</td><td>平日：80,000円 / 土日祝：150,000円（12時間：10:00〜22:00）</td></tr>
+      <tr><td>半日パックA</td><td>平日：40,000円 / 土日祝：85,000円（6時間：10:00〜16:00）</td></tr>
+      <tr><td>半日パックB</td><td>平日：50,000円 / 土日祝：85,000円（6時間：16:00〜22:00）</td></tr>
+      <tr><td>時間貸し</td><td>平日：10,000円/h（16時以降 12,000円/h） / 土日祝：25,000円/h<br>※最低2時間〜・1時間単位・利用10日前から予約可</td></tr>
+      <tr><td>広さ／天井高</td><td>180㎡ / 3.7m（バトンまで372cm） / 2階吹き抜け構造</td></tr>
+      <tr><td>無料備品</td><td>基本照明（卓・LEDスポット8灯等）、音響（常設スピーカー・ミキサー）、有線マイク・スタンド 2セット</td></tr>
+      <tr><td>有料オプション</td><td>プロジェクター（5,000lm）：8,000円/日 / 仕込みサポート：30,000円 / 本番オペレーション：25,000円/日〜</td></tr>
+      <tr><td>ゴミ回収</td><td>3,000円 / 45L袋　軽清掃：3,000円/日</td></tr>
+      <tr><td>キャンセルポリシー</td><td>予約確定〜60日前：30% / 59〜30日前：50% / 29〜8日前：80% / 7日前〜当日：100%</td></tr>
+      <tr><td>支払スケジュール</td><td>予約申込後7日以内にデポジット（50%）入金で確定、残額は開催30日前まで</td></tr>
+    </tbody>
+  </table>
+</div>
+
+
+<div class="doc-footer">
+  ご不明な点はお気軽にお問い合わせください。<br>
+  株式会社SAI（小池博史ブリッジプロジェクト）　sai@kikh.com<br>
+  OCC（ODYSSEY CREATIVE CENTER）制作担当：川之上恭弘
+</div>
+
+</body>
+</html>
